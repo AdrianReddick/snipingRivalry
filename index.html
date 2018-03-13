@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.target {
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+}
+
+#targetOne {
+  margin-left: 100px;
+  font-size: 20pt;
+  width: 400px;
+  height: 350px;
+}
+
+#targetTwo {
+  font-size: 20pt;
+  width: 400px;
+  height: 350px;
+  transform: translate(550px, -350px);
+}
+
+#targetThree {
+  font-size: 20pt;
+  width: 400px;
+  height: 350px;
+  transform: translate(1000px, -700px);
+}
+
+#crossOutOne {
+  position: absolute;
+  opacity: 0;
+  border-color: black;
+  border-style: solid;
+}
+
+#crossOutTwo {
+  position: absolute;
+  opacity: 0;
+  border-color: black;
+  border-style: solid;
+}
+
+#crossOutThree {
+  position: absolute;
+  opacity: 0;
+  border-color: black;
+  border-style: solid;
+}
+
+</style>
+<body>
+<div id="targetOne">
+  Sarah Burns: Worth 3 Points <br>
+  <img class="target" src="img/Sarah.jpg" width="300" height="300">
+  <img id="crossOutOne" src="img/eliminated.png" width="300" height="300">
+</div>
+
+<div id="targetTwo">
+  Kenneth Fong: Worth 3 Points <br>
+  <img class="target" src="img/Kenneth.jpg" width="300" height="300">
+  <img id="crossOutTwo" src="img/eliminated.png" width="300" height="300">
+</div>
+
+<div id="targetThree">
+  Jonathan Sanchez: Worth 4 Points <br>
+  <img class="target" src="img/Sanchez.jpg" width="300" height="300">
+  <img id="crossOutThree" src="img/eliminated.png" width="300" height="300">
+</div>
+</body>
